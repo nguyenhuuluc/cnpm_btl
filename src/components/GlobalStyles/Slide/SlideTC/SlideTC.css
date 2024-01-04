@@ -1,0 +1,42 @@
+.star {
+    color: rgb(189, 148, 95);
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.slide {
+    margin: 0 auto;
+}
+.slide .image-item {
+    background-color: #ffffff;
+}
+
+.slide .image-item .image {
+    margin: 15px 8px 0px 8px;
+}
+
+.slide .image-item .image img {
+    width: 240px;
+    height: 250px;
+}
+
+.slide_ct h4 {
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.slide_ct p {
+    text-align: center;
+    color: #888888;
+    margin: 0;
+}
+.slide_ct .p_price {
+    text-align: center;
+    color: #222222;
+    padding-bottom: 1.1rem;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #bd945f;
+}

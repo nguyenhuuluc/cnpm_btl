@@ -1,0 +1,76 @@
+.content {
+    padding: 0;
+}
+
+/* bannerLH */
+section.bannerLH {
+    background: url('../../assets/Img/LIENHE.png') no-repeat;
+    background-size: cover;
+    z-index: 0;
+    width: 100%;
+}
+
+section.bannerLH .banner_main {
+    padding-top: 6rem;
+    padding-bottom: 8.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.bannerLH .banner_imgLH img {
+    z-index: 5;
+}
+
+section.bannerLH .banner_title h1 {
+    text-align: center;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+/* LIÊN HỆ */
+section.lienheLH .container {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -2.5rem;
+    z-index: 1;
+}
+
+section.lienheLH .container .lienhe_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.lienheLH .container .lienhe_left img {
+    width: 60%;
+}
+
+section.lienheLH .container .lienhe_right h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #bd945f;
+}
+
+section.lienheLH .container .lienhe_right input {
+    width: 65%;
+    height: 2.5rem;
+    border: 3px solid #bd945f;
+}
+
+::placeholder {
+    padding-left: 0.5rem;
+    color: #000;
+    font-weight: 500;
+}
+
+section.lienheLH .container .lienhe_right button {
+    background-color: #bd945f;
+    border: #bd945f;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    margin-left: 0.25rem;
+    font-weight: 300;
+}

@@ -1,0 +1,41 @@
+.lienhe {
+    z-index: 2;
+    height: 220px;
+    background-color: #363636;
+    margin: 0 auto;
+}
+.lienhe_in {
+    margin: 0 auto;
+    color: #f3f3f3;
+    padding-top: 50px;
+}
+
+.lienhe_in .row div {
+    padding-left: 8.5rem;
+}
+
+.lienhe .bottomSpnb {
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    width: 60px;
+    margin-left: 0;
+}
+.lienhe p {
+    font-family: Gotham-Thin;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+.social {
+    margin-top: 10px;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+.social i {
+    font-size: 30px;
+}
+.ketnoi img {
+    margin-top: 20px;
+    width: 100px;
+}

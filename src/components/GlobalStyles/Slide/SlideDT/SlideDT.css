@@ -1,0 +1,12 @@
+.slick-dots li button:before {
+    display: none;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    display: none;
+}
+
+.image-slider2 img {
+    margin: 2rem;
+}
